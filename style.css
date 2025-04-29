@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ACACAC;
+}
+
+/* home page */
+.nav{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px #2600FF solid;
+    position: fixed;
+    background-color: #ACACAC;
+}
+    .nav img{
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 1.5rem;
+        width: auto;
+    }
+    .nav img:hover{
+        content: url(assets/y.png);
+    }
+
+.grid{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1.5fr .5fr 1.5fr;
+    font-family: artigo, serif;
+    color: #2600FF;
+    font-weight: 400;
+    border-bottom: #2600FF 1px solid;
+}
+
+    span{
+        font-weight: 700;
+        font-style: italic;
+    }
+    a{
+        font-family: artigo, serif;
+        color: #2600FF;
+        font-weight: 700;
+        font-style: italic;
+        border-right: #2600FF 1px solid;
+        padding: 1rem;
+    }
+    p{
+        border-right: #2600FF 1px solid;
+        padding: 1rem;
+    }
+    li{
+        display: inline-block;
+        margin-right: 5px;
+        padding: 1rem;
+        font-weight: 700;
+        font-style: italic;
+        text-decoration-line: underline;
+        text-decoration-style: solid;   
+    }
+
+.archive_grid{
+    display: grid;
+    grid-template-rows: max-content;font-family: artigo, serif;
+    color: #2600FF;
+    font-weight: 400;
+}
+
+.archive_grid p{
+    border-bottom: #2600FF solid 1px;
+    border-right: none;
+
+}
+
+
+/* individual pages */
+
+
+.grid_images{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    font-family: artigo, serif;
+    color: #2600FF;
+    font-weight: 400;
+    padding-top: 60px;
+}
+
+.images_in_grid{
+    border-right: #2600FF 1px solid;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+
+.none{
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.none:hover{
+    text-decoration-line: underline;
+}
+
+
+/* style for comments added */
+.entry-name{
+    color: red;
+    text-decoration: none;
+    border: none;
+}
+
+.entry-comment{
+    color: red;
+    text-decoration: zxs;
+    border: none;
+    font-family: artigo, serif;
+    color: #2600FF;
+    font-weight: 400;
+}
+
+
+.change{
+    border: none; 
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: #2600FF solid 1px;
+    
+}
+
+#entriesContainer{
+    border-bottom: #2600FF solid 1px;
+}
