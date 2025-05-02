@@ -82,7 +82,7 @@ html{
 
 .grid_images{
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr;
     font-family: artigo, serif;
     color: #2600FF;
     font-weight: 400;
