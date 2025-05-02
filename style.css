@@ -67,6 +67,7 @@ html{
     grid-template-rows: max-content;font-family: artigo, serif;
     color: #2600FF;
     font-weight: 400;
+    font-size: 2rem;
 }
 
 .archive_grid p{
