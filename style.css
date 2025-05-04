@@ -8,6 +8,10 @@ html{
     background-color: #ACACAC;
 }
 
+li:hover{
+    cursor: pointer;
+}
+
 /* home page */
 .nav{
     width: 100%;
@@ -160,6 +164,17 @@ html{
         border-bottom: #2600FF 1px solid;
 
     }
+    .grid_images{
+        grid-template-columns: none;    
+        grid-template-rows: auto auto auto;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* body{
+        background-color: red;
+    } */
     .grid_images{
         grid-template-columns: none;    
         grid-template-rows: auto auto auto;
