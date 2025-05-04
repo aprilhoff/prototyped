@@ -140,3 +140,27 @@ html{
 #entriesContainer{
     border-bottom: #2600FF solid 1px;
 }
+
+
+@media only screen 
+  and (max-device-width: 550px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .grid {
+        grid-template-columns: none;
+        grid-template-rows: 3fr .5fr .5fr;
+    }
+    p{
+        border-bottom: #2600FF 1px solid;
+
+    }
+    a{
+        border-bottom: #2600FF 1px solid;
+
+    }
+    .grid_images{
+        grid-template-columns: none;    
+        grid-template-rows: auto auto auto;
+    }
+}
