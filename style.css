@@ -87,6 +87,7 @@ html{
     color: #2600FF;
     font-weight: 400;
     padding-top: 60px;
+    border-bottom: #2600FF 1px solid;
 }
 
 .images_in_grid{
