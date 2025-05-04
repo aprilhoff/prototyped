@@ -163,5 +163,6 @@ html{
     .grid_images{
         grid-template-columns: none;    
         grid-template-rows: auto auto auto;
+        border-bottom: none;
     }
 }
