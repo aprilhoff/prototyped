@@ -32,9 +32,9 @@ entries.forEach((entry) =>{
     // add entries to container 
     entriesContainer.innerHTML += `
     <li class="entry">
-      <p class="entry-comment">${entry.name}</p>
-      <p class="entry-comment">${entry.thoughts}</p>
-      <p class="entry-comment">${entry.timestamp}</p>
+    <p class="entry-comment">${entry.name}</p>
+    <p class="entry-comment">${entry.thoughts}</p>
+    <p class="entry-comment">${entry.timestamp}</p>
     </li>
   `;
 }); 
